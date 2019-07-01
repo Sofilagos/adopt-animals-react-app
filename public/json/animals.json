@@ -1,28 +1,40 @@
 [{
-    "nombre": "Suki",
-    "raza": "ovejero",
-    "edad": "3 meses",
+    "nombre": "Laki",
+    "edad": "5 meses",
     "sexo": "Hembra",
-    "foto": "/assets/ovejero-suki.jpg"
+    "foto": "/assets/1.jpg"
   },
   {
-    "nombre": "Suki",
-    "raza": "ovejero",
-    "edad": "3 meses",
-    "sexo": "Hembra",
-    "foto": "/assets/ovejero-suki.jpg"
+    "nombre": "Roco",
+    "edad": "9 meses",
+    "sexo": "Macho",
+    "foto": "/assets/7.jpg"
   },
   {
-    "nombre": "Suki",
-    "raza": "ovejero",
-    "edad": "3 meses",
-    "sexo": "Hembra",
-    "foto": "/assets/ovejero-suki.jpg"
+    "nombre": "Goyo",
+    "edad": "5 meses",
+    "sexo": "Macho",
+    "foto": "/assets/3.jpg"
   },
   {
-    "nombre": "Kala",
-    "raza": "ovejero",
-    "edad": "3 meses",
-    "sexo": "Hembra",
-    "foto": "/assets/ovejero-suki.jpg"
-  }]
+    "nombre": "Toto",
+    "edad": "1 año",
+    "sexo": "Macho",
+    "foto": "/assets/4.jpg"
+  },
+
+  {
+    "nombre": "Garufa",
+    "edad": "6 meses",
+    "sexo": "Macho",
+    "foto": "/assets/6.jpg"
+  },
+
+  {
+    "nombre": "Negrito",
+    "edad": "1 año",
+    "sexo": "Macho",
+    "foto": "/assets/5.jpg"
+  }
+
+]

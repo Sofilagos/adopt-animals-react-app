@@ -1,5 +1,22 @@
-.navbar.navbar-expand-lg.navbar-light.bg-light {
+.header {
 
     background-color: #fc8556;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #ffffff;
+    text-align: left;
+    
+}
+
+.Container-fluid {
+
+    background-color: #fda27d;
+    
 
 }
+
+
+
+

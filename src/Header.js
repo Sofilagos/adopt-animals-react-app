@@ -2,37 +2,34 @@ import React from 'react';
 import './Header.css';
 
 class Header extends React.Component {
- render() {
-  return (
-    
-      <header className="navbar navbar-expand-lg navbar-light bg-light">
-        <a>Pet Center</a>
-        
-        <div className="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul className="navbar-nav">
+  render() {
+    return (
 
-            <li className="nav-item active">
-              <a className="nav-link" href="#">Inicio <span className="sr-only">(current)</span></a></li>
-            <li className="nav-item active">
-              <a className="nav-link" href="#">Curiosidades <span className="sr-only">(current)</span></a></li>
-           
+      <header className='container-fluid'>
+        <div className='col-12'>
+          <div className='header'>
+            <div className='navbar navbar-expand-lg navbar-light'>
+              <img src='/assets/logo.png' href='#' onClick={this.props.goToHomeSection} alt='Pet center'></img>
 
-            <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Animales</a>
-              <div className="dropdown-menu">
-                <a className="dropdown-item" href="#">Raza</a>
-                <a className="dropdown-item" href="#">Cachorros</a>
-                <a className="dropdown-item" href="#">Adultos</a>
+              <div className='collapse navbar-collapse' id='navbarNavDropdown'>
+                <ul className='navbar-nav'>
+
+                  <li className='nav-item active'>
+                    <a className='nav-link' href='#' onClick={this.props.goToHomeSection}>Inicio <span className='sr-only'>(current)</span></a></li>
+                  <li className='nav-item active'>
+                    <a className='nav-link' href='#' onClick={this.props.goToAnimal}>Curiosidades <span className='sr-only'>(current)</span></a></li>
+
+                  <li className='nav-item active'>
+                    <a className='nav-link' href='#' onClick={this.props.goToNewAnimal}>Registrar animal <span className='sr-only'>(current)</span></a></li>
+                </ul>
               </div>
-            </li>
-            <li className="nav-item active">
-              <a className="nav-link" href="#">Registrar animal <span className="sr-only">(current)</span></a></li> 
-          </ul>
+            </div>
+          </div>
         </div>
-    </header>
 
-  );
-}
+      </header>
+
+    );
+  }
 }
 export default Header;
